@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="divy.css"/>
+</head>
+<body>
+    <div id="Strona">
+        <div id="Naglowek">
+            <div id="Logo">Logo</div>
+            <div id="Menu">
+                <div class="option">Strona główna</div>
+                <div class="option">Dystrybucje</div>
+                <div class="option">Instalacja</div>
+                <div class="option">Polecenia</div>
+                <div class="option">Linus Torvalds</div>
+                <div class="option">O projekcie</div></div>
+            <div id="ObszarLogowania">Zaloguj</div>
+        </div>
+    <div id="Tresc">
+            <div id="PierwszyObszarBoczny">Radosław Szulc</div>
+            <div id="DrugiObszarBoczny">
+                <SCRIPT LANGUAGE= "JavaScript" type= "text/javascript">
+                function wyswietlDate()
+                {
+                  var data = new Date();
+                  var miesiac = data.getMonth() + 1;
+                  if (miesiac < 10){
+                      miesiac = "0" + miesiac;
+                  }
+                  var dzien = data.getDate();
+                  if (dzien < 10){
+                      dzien = "0" + dzien;
+                  }
+                  var rok = data.getYear();
+                  if (rok < 1000){
+                      rok = 2000 + rok - 100;
+                  }
+                  var dzisiaj = " " + dzien + "." + miesiac + "." + rok;
+                  document.write(dzisiaj);
+                }
+            </SCRIPT>Dzisiaj mamy:<SCRIPT LANGUAGE= "JavaScript" type= "text/javascript">
+            wyswietlDate()</SCRIPT>
+            </div>
+            <div id="ObszarRoboczy">jakiś tekst</div>
+        </div>
+    </div>
+    
+</body>
+</html>
