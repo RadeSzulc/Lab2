@@ -19,6 +19,7 @@
 ## Technologies Used
 - html
 - css
+- js
 
 
 
